@@ -1,0 +1,1 @@
+alert('Scroll down to see the animation:)')

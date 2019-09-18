@@ -1,0 +1,455 @@
+/* General styles*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#514d4d;
+    animation-iteration-count: 1;
+}
+p{
+    color: transparent;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    padding-top:5px;
+    margin-top: 0px;
+}
+.align-right{
+    text-align: right;
+}
+.align-left{
+    text-align: left;
+}
+h1,h6,h5{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h6{
+    font-size: 15px;
+    font-weight: 100;
+    color: transparent;
+    margin-bottom: 10px;
+}
+h5{
+    color: transparent;
+}
+.link{
+    color:transparent;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e4e4;
+    padding-bottom: 20px;
+}
+
+/* Animation styles*/
+
+@keyframes line-appear{
+    from {background-color: #e6e4e4; border: 1px solid #e6e4e4;}
+    to {background-color: #5cb6b7; border: 1px solid #5cb6b7;}
+}
+@keyframes separator-appear{
+    from {background-color: #e6e4e4; box-shadow:none; color: #e6e4e4;}
+    to {background-color: #9d9da7; box-shadow: 0 0 15px white;color: white;}
+}
+@keyframes message-prl-appear{
+    from {background: transparent;}
+    to {background: url("..//img/product\ launched.png") no-repeat;}
+}
+@keyframes message-fe-appear{
+    from {background: transparent;}
+    to {background: url("..//img/first\ employee\ with\ logo.png") no-repeat;background-size: cover;}
+}
+@keyframes message-ft2l-appear{
+    from {background: transparent;}
+    to {background: url("..//img/from\ Twitter\ 3\ with\ tw.png") no-repeat; background-size: cover;}
+}
+@keyframes message-ft1l-appear{
+    from {background: transparent;}
+    to {background: url("..//img/from\ Twitter\ 2\ with\ tw.png") no-repeat; background-size: cover;}
+}
+@keyframes message-ft1r-appear{
+    from {background: transparent;}
+    to {background: url("..//img/from\ Twitter\ 1\ with\ tw.png") no-repeat; background-size: cover;}
+}
+@keyframes message-mj-appear{
+    from {background: transparent;}
+    to {background: url("..//img/Mattew.png") no-repeat; background-size: cover;}
+}
+ 
+@keyframes message-pa-appear{
+    from {background: transparent;}
+    to {background: url("..//img/premium\ acc\ with\ logo.png") no-repeat; background-size: cover;}
+}
+@keyframes h6-h5-appear{
+    from {color: transparent}
+    to {color:#514d4d }
+}
+@keyframes p-appear{
+    from {color: transparent}
+    to {color:#9d9da7 }
+}
+@keyframes p-link-appear{
+    from {color: transparent}
+    to {color:#5cb6b7 }
+}
+.launch-message-animation{
+    animation: message-prl-appear 3s forwards;
+    animation-delay: 1s;
+}
+.launch-message-h6-animation{
+    animation: h6-h5-appear 3s forwards;
+    animation-delay: 2s;
+}
+.launch-message-p-animation{
+    animation: p-appear 3s forwards;
+    animation-delay: 2s;
+    padding-bottom:15px;
+}
+.separator-launch-animation{
+    animation: separator-appear 1s forwards;
+    animation-delay: 0s;
+}
+.line-animation{
+    animation: line-appear 2s forwards;
+    width: 1px;
+}
+.line8{
+    height: 200px;
+    animation-delay: 2s;   
+}
+.message-from-Twitter2-left{
+    animation:  message-ft2l-appear 3s ease-in-out forwards;
+    animation-delay: 2s;
+}
+.h5_1-animation{
+    animation: h6-h5-appear 1s ease forwards;
+    animation-delay: 4s;
+}   
+.p_1-animation{
+    animation: p-appear 1s ease forwards;
+    animation-delay: 4s;
+}
+.p_1-link-animation{
+    animation: p-link-appear 1s ease forwards;
+    animation-delay: 4s;
+}
+.dot-animation-1{
+    animation: line-appear 1s ease forwards;
+    animation-delay: 3s;
+}
+.date1-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 4s;
+}
+.line7{
+    height: 110px;
+    animation-delay: 5s; 
+}
+.dot-animation-2{
+    animation: line-appear 1s forwards;
+    animation-delay: 6s;
+}
+.date2-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 6s;
+}
+.message-Hired-First-Employee{
+    animation: message-fe-appear 3s ease-in-out forwards;
+    animation-delay: 5s;
+}
+.h5_2-animation{
+    animation: h6-h5-appear 1s forwards;
+    animation-delay: 7s;
+}
+.p_2-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 7s;
+}
+.line6{
+    height: 120px;
+    animation-delay: 8s;
+}
+.dot-animation-3{
+    animation: line-appear 1s forwards;
+    animation-delay: 9s;
+}
+.date3-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 9s;
+}
+.h5_3-animation{
+    animation: h6-h5-appear 1s forwards;
+    animation-delay: 10s;
+}
+.p_3-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 10s;
+}
+.message-from-Twitter1-left{
+    animation: message-ft1l-appear 1s ease-in-out forwards;
+    animation-delay: 9s;
+}
+.line5{
+    height: 110px;
+    animation-delay: 11s;
+}
+.dot-animation-4{
+    animation: line-appear 1s forwards;
+    animation-delay: 12s;
+}
+.date4-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 12s;
+}
+.h5_4-animation{
+    animation: h6-h5-appear 1s forwards;
+    animation-delay: 13s;
+}
+.p_4-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 13s;
+}
+.message-from-Twitter1-right{
+    animation: message-ft1r-appear 1s ease-in-out forwards;
+    animation-delay: 11s;
+}
+.line4{
+    height: 50px;
+    animation-delay: 14s;
+}
+.separator-2014-animation{
+    animation: separator-appear 1s ease-in-out forwards;
+    animation-delay: 15s;
+}
+.line3{
+    height: 60px;
+    animation-delay: 16s;
+}
+.dot-animation-5{
+    animation: line-appear 1s forwards;
+    animation-delay: 17s;
+}
+.date5-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 17s;
+}
+.h5_5-animation{
+    animation: h6-h5-appear 1s forwards;
+    animation-delay: 17s;
+}
+.p_5-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 17s;
+}
+.message-Mathew-Joined{
+    animation: message-mj-appear 1s forwards;
+    animation-delay: 17s;
+}
+.line2{
+    height: 105px;
+    animation-delay: 18s;
+}
+.dot-animation-6{
+    animation: line-appear 1s forwards;
+    animation-delay: 19s;
+}
+.date6-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 19s;
+}
+.h5_6-animation{
+    animation: h6-h5-appear 1s forwards;
+    animation-delay: 19s;
+}
+.p_6-animation{
+    animation: p-appear 1s forwards;
+    animation-delay: 19s;
+}
+.message-Premium-Account{
+    animation: message-pa-appear 1s forwards;
+    animation-delay: 19s;
+}
+.line1{
+    height: 95px;
+    animation-delay: 20s;
+    
+}
+.separator-now-animation{
+    animation: separator-appear 1s forwards;
+    animation-delay: 21s;
+}
+
+/* End of Animation styles*/
+
+
+
+.subheader{
+    color:#9d9da7;
+    font-size:20px;
+}
+.timeline, .timeline-section_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timeline{
+    margin-top:20px;
+    width:91vw;
+}
+.timeline-date{
+    font-size: 12px;
+}
+.separator{
+    width:100px;
+    height:35px;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.timeline-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.year2014{
+    height:290px;
+}
+.year2013{
+    height:630px;
+}
+.timeline-date, .timeline-message-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.timeline-section_left{
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    padding-right:7px;
+    
+}
+.timeline-section_center{
+    width:1vw;
+}
+.timeline-section_right{
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    padding-left:7px;
+    
+}
+.dot{
+    background-color: #e6e4e4;
+    border: 1px solid #e6e4e4;
+    width:5px;
+    height: 5px;
+    border-radius: 5px;
+    margin:2px;
+}
+.message-Mathew-Joined{
+    width:310px;
+    height:80px;
+    margin-top:63px;
+}
+.message-Premium-Account{
+    width:340px;
+    height:80px;
+    margin-top: 65px;
+}
+.message-from-Twitter1-left{
+    width:330px;
+    height:100px;
+    margin-top:70px;
+}
+.message-from-Twitter2-left{
+    width:375px;
+    height:110px;
+    margin-top:70px;
+}
+.message-from-Twitter1-right{
+    width:355px;
+    height:90px;
+    margin-top:18px;
+}
+.message-Hired-First-Employee{
+    width:300px;
+    height:90px;
+    margin-top:78px;
+}
+.launch-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width:360px;
+    height:88px; 
+}
+.date-18Feb2014{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:92px;
+}
+.date-02Jun2014{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 63px;
+}
+.date-28Dec2013{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 43px;
+}
+.date-16Dec2013{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 58px;
+}
+.date-20Dec2013{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 57px;
+}
+.date-02Dec2013{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 58px;
+}
+.timeline-message-right{
+    display: flex;
+    justify-content: flex-start; 
+}
+.message-left{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right:60px;
+    padding-left:15px;
+    padding-bottom: 10px;
+}
+.message-right{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:65px;
+    padding-right:15px;
+    padding-bottom: 10px;
+}
