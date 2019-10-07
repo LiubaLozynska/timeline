@@ -13,10 +13,10 @@ p{
     padding-top:5px;
     margin-top: 0px;
 }
-.align-right{
+.align_right{
     text-align: right;
 }
-.align-left{
+.align_left{
     text-align: left;
 }
 h1,h6,h5{
@@ -95,24 +95,24 @@ body{
     from {color: transparent}
     to {color:#5cb6b7 }
 }
-.launch-message-animation{
+.launch_message_animation{
     animation: message-prl-appear 3s forwards;
+    animation-delay: 0s;
+}
+.launch_message_h6_animation{
+    animation: h6-h5-appear 3s forwards;
     animation-delay: 1s;
 }
-.launch-message-h6-animation{
-    animation: h6-h5-appear 3s forwards;
-    animation-delay: 2s;
-}
-.launch-message-p-animation{
+.launch_message_p_animation{
     animation: p-appear 3s forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     padding-bottom:15px;
 }
-.separator-launch-animation{
+.separator_launch_animation{
     animation: separator-appear 1s forwards;
     animation-delay: 0s;
 }
-.line-animation{
+.line_animation{
     animation: line-appear 2s forwards;
     width: 1px;
 }
@@ -120,27 +120,27 @@ body{
     height: 200px;
     animation-delay: 2s;   
 }
-.message-from-Twitter2-left{
+.message_from_Twitter2_left{
     animation:  message-ft2l-appear 3s ease-in-out forwards;
     animation-delay: 2s;
 }
-.h5_1-animation{
+.h5_1_animation{
     animation: h6-h5-appear 1s ease forwards;
     animation-delay: 4s;
 }   
-.p_1-animation{
+.p_1_animation{
     animation: p-appear 1s ease forwards;
     animation-delay: 4s;
 }
-.p_1-link-animation{
+.p_1_link_animation{
     animation: p-link-appear 1s ease forwards;
     animation-delay: 4s;
 }
-.dot-animation-1{
+.dot_animation_1{
     animation: line-appear 1s ease forwards;
     animation-delay: 3s;
 }
-.date1-animation{
+.date1_animation{
     animation: p-appear 1s forwards;
     animation-delay: 4s;
 }
@@ -148,23 +148,23 @@ body{
     height: 110px;
     animation-delay: 5s; 
 }
-.dot-animation-2{
+.dot_animation_2{
     animation: line-appear 1s forwards;
     animation-delay: 6s;
 }
-.date2-animation{
+.date2_animation{
     animation: p-appear 1s forwards;
     animation-delay: 6s;
 }
-.message-Hired-First-Employee{
+.message_Hired_First_Employee{
     animation: message-fe-appear 3s ease-in-out forwards;
     animation-delay: 5s;
 }
-.h5_2-animation{
+.h5_2_animation{
     animation: h6-h5-appear 1s forwards;
     animation-delay: 7s;
 }
-.p_2-animation{
+.p_2_animation{
     animation: p-appear 1s forwards;
     animation-delay: 7s;
 }
@@ -172,23 +172,23 @@ body{
     height: 120px;
     animation-delay: 8s;
 }
-.dot-animation-3{
+.dot_animation_3{
     animation: line-appear 1s forwards;
     animation-delay: 9s;
 }
-.date3-animation{
+.date3_animation{
     animation: p-appear 1s forwards;
     animation-delay: 9s;
 }
-.h5_3-animation{
+.h5_3_animation{
     animation: h6-h5-appear 1s forwards;
     animation-delay: 10s;
 }
-.p_3-animation{
+.p_3_animation{
     animation: p-appear 1s forwards;
     animation-delay: 10s;
 }
-.message-from-Twitter1-left{
+.message_from_Twitter1_left{
     animation: message-ft1l-appear 1s ease-in-out forwards;
     animation-delay: 9s;
 }
@@ -196,23 +196,23 @@ body{
     height: 110px;
     animation-delay: 11s;
 }
-.dot-animation-4{
+.dot_animation_4{
     animation: line-appear 1s forwards;
     animation-delay: 12s;
 }
-.date4-animation{
+.date4_animation{
     animation: p-appear 1s forwards;
     animation-delay: 12s;
 }
-.h5_4-animation{
+.h5_4_animation{
     animation: h6-h5-appear 1s forwards;
     animation-delay: 13s;
 }
-.p_4-animation{
+.p_4_animation{
     animation: p-appear 1s forwards;
     animation-delay: 13s;
 }
-.message-from-Twitter1-right{
+.message_from_Twitter1_right{
     animation: message-ft1r-appear 1s ease-in-out forwards;
     animation-delay: 11s;
 }
@@ -220,7 +220,7 @@ body{
     height: 50px;
     animation-delay: 14s;
 }
-.separator-2014-animation{
+.separator_2014_animation{
     animation: separator-appear 1s ease-in-out forwards;
     animation-delay: 15s;
 }
@@ -228,23 +228,23 @@ body{
     height: 60px;
     animation-delay: 16s;
 }
-.dot-animation-5{
+.dot_animation_5{
     animation: line-appear 1s forwards;
     animation-delay: 17s;
 }
-.date5-animation{
+.date5_animation{
     animation: p-appear 1s forwards;
     animation-delay: 17s;
 }
-.h5_5-animation{
+.h5_5_animation{
     animation: h6-h5-appear 1s forwards;
     animation-delay: 17s;
 }
-.p_5-animation{
+.p_5_animation{
     animation: p-appear 1s forwards;
     animation-delay: 17s;
 }
-.message-Mathew-Joined{
+.Mathew_Joined{
     animation: message-mj-appear 1s forwards;
     animation-delay: 17s;
 }
@@ -252,23 +252,23 @@ body{
     height: 105px;
     animation-delay: 18s;
 }
-.dot-animation-6{
+.dot_animation_6{
     animation: line-appear 1s forwards;
     animation-delay: 19s;
 }
-.date6-animation{
+.date6_animation{
     animation: p-appear 1s forwards;
     animation-delay: 19s;
 }
-.h5_6-animation{
+.h5_6_animation{
     animation: h6-h5-appear 1s forwards;
     animation-delay: 19s;
 }
-.p_6-animation{
+.p_6_animation{
     animation: p-appear 1s forwards;
     animation-delay: 19s;
 }
-.message-Premium-Account{
+.Premium_Account{
     animation: message-pa-appear 1s forwards;
     animation-delay: 19s;
 }
@@ -277,7 +277,7 @@ body{
     animation-delay: 20s;
     
 }
-.separator-now-animation{
+.separator_now_animation{
     animation: separator-appear 1s forwards;
     animation-delay: 21s;
 }
@@ -289,8 +289,9 @@ body{
 .subheader{
     color:#9d9da7;
     font-size:20px;
+    text-align: center;
 }
-.timeline, .timeline-section_center{
+.timeline, .timeline-section__center{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,7 +301,7 @@ body{
     margin-top:20px;
     width:91vw;
 }
-.timeline-date{
+.timeline_date{
     font-size: 12px;
 }
 .separator{
@@ -324,29 +325,30 @@ body{
     justify-content: center;
     align-items: center;
 }
-.year2014{
+.year_2014{
     height:290px;
 }
-.year2013{
+.year_2013{
     height:630px;
 }
-.timeline-date, .timeline-message-left{
+.timeline_date, .timeline-message__left{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.timeline-section_left{
+.timeline-section__left{
     width:45vw;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     padding-right:7px;
     
 }
-.timeline-section_center{
+.timeline-section__center{
     width:1vw;
 }
-.timeline-section_right{
+.timeline-section__right{
     width:45vw;
     display: flex;
     flex-direction: column;
@@ -361,32 +363,32 @@ body{
     border-radius: 5px;
     margin:2px;
 }
-.message-Mathew-Joined{
+.Mathew_Joined{
     width:310px;
     height:80px;
     margin-top:63px;
 }
-.message-Premium-Account{
+.Premium_Account{
     width:340px;
     height:80px;
     margin-top: 65px;
 }
-.message-from-Twitter1-left{
+.message_from_Twitter1_left{
     width:330px;
     height:100px;
     margin-top:70px;
 }
-.message-from-Twitter2-left{
+.message_from_Twitter2_left{
     width:375px;
     height:110px;
     margin-top:70px;
 }
-.message-from-Twitter1-right{
+.message_from_Twitter1_right{
     width:355px;
     height:90px;
     margin-top:18px;
 }
-.message-Hired-First-Employee{
+.message_Hired_First_Employee{
     width:300px;
     height:90px;
     margin-top:78px;
@@ -399,41 +401,41 @@ body{
     width:360px;
     height:88px; 
 }
-.date-18Feb2014{
+.date_18Feb2014{
     display: flex;
     justify-content: flex-end;
     margin-top:92px;
 }
-.date-02Jun2014{
+.date_02Jun2014{
     display: flex;
     justify-content: flex-start;
     margin-top: 63px;
 }
-.date-28Dec2013{
+.date_28Dec2013{
     display: flex;
     justify-content: flex-end;
     margin-top: 43px;
 }
-.date-16Dec2013{
+.date_16Dec2013{
     display: flex;
     justify-content: flex-end;
     margin-top: 58px;
 }
-.date-20Dec2013{
+.date_20Dec2013{
     display: flex;
     justify-content: flex-start;
     margin-top: 57px;
 }
-.date-02Dec2013{
+.date_02Dec2013{
     display: flex;
     justify-content: flex-start;
     margin-top: 58px;
 }
-.timeline-message-right{
+.timeline-message__right{
     display: flex;
     justify-content: flex-start; 
 }
-.message-left{
+.message_left{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -443,7 +445,7 @@ body{
     padding-left:15px;
     padding-bottom: 10px;
 }
-.message-right{
+.message_right{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
