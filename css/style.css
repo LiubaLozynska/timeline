@@ -1,9 +1,19 @@
-/* General styles*/
+@import url("animation.css"); /* Animation styles
+
+/* Base layer styles*/
 
 *{
     font-family: Arial, Helvetica, sans-serif;
     color:#514d4d;
     animation-iteration-count: 1;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e4e4;
+    padding-bottom: 20px;
 }
 p{
     color: transparent;
@@ -12,12 +22,6 @@ p{
     margin-bottom: 0px;
     padding-top:5px;
     margin-top: 0px;
-}
-.align_right{
-    text-align: right;
-}
-.align_left{
-    text-align: left;
 }
 h1,h6,h5{
     padding-bottom: 0px;
@@ -35,263 +39,23 @@ h5{
 .link{
     color:transparent;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #e6e4e4;
-    padding-bottom: 20px;
-}
-
-/* Animation styles*/
-
-@keyframes line-appear{
-    from {background-color: #e6e4e4; border: 1px solid #e6e4e4;}
-    to {background-color: #5cb6b7; border: 1px solid #5cb6b7;}
-}
-@keyframes separator-appear{
-    from {background-color: #e6e4e4; box-shadow:none; color: #e6e4e4;}
-    to {background-color: #9d9da7; box-shadow: 0 0 15px white;color: white;}
-}
-@keyframes message-prl-appear{
-    from {background: transparent;}
-    to {background: url("..//img/product\ launched.png") no-repeat;}
-}
-@keyframes message-fe-appear{
-    from {background: transparent;}
-    to {background: url("..//img/first\ employee\ with\ logo.png") no-repeat;background-size: cover;}
-}
-@keyframes message-ft2l-appear{
-    from {background: transparent;}
-    to {background: url("..//img/from\ Twitter\ 3\ with\ tw.png") no-repeat; background-size: cover;}
-}
-@keyframes message-ft1l-appear{
-    from {background: transparent;}
-    to {background: url("..//img/from\ Twitter\ 2\ with\ tw.png") no-repeat; background-size: cover;}
-}
-@keyframes message-ft1r-appear{
-    from {background: transparent;}
-    to {background: url("..//img/from\ Twitter\ 1\ with\ tw.png") no-repeat; background-size: cover;}
-}
-@keyframes message-mj-appear{
-    from {background: transparent;}
-    to {background: url("..//img/Mattew.png") no-repeat; background-size: cover;}
-}
- 
-@keyframes message-pa-appear{
-    from {background: transparent;}
-    to {background: url("..//img/premium\ acc\ with\ logo.png") no-repeat; background-size: cover;}
-}
-@keyframes h6-h5-appear{
-    from {color: transparent}
-    to {color:#514d4d }
-}
-@keyframes p-appear{
-    from {color: transparent}
-    to {color:#9d9da7 }
-}
-@keyframes p-link-appear{
-    from {color: transparent}
-    to {color:#5cb6b7 }
-}
-.launch_message_animation{
-    animation: message-prl-appear 3s forwards;
-    animation-delay: 0s;
-}
-.launch_message_h6_animation{
-    animation: h6-h5-appear 3s forwards;
-    animation-delay: 1s;
-}
-.launch_message_p_animation{
-    animation: p-appear 3s forwards;
-    animation-delay: 1s;
-    padding-bottom:15px;
-}
-.separator_launch_animation{
-    animation: separator-appear 1s forwards;
-    animation-delay: 0s;
-}
-.line_animation{
-    animation: line-appear 2s forwards;
-    width: 1px;
-}
-.line8{
-    height: 200px;
-    animation-delay: 2s;   
-}
-.message_from_Twitter2_left{
-    animation:  message-ft2l-appear 3s ease-in-out forwards;
-    animation-delay: 2s;
-}
-.h5_1_animation{
-    animation: h6-h5-appear 1s ease forwards;
-    animation-delay: 4s;
-}   
-.p_1_animation{
-    animation: p-appear 1s ease forwards;
-    animation-delay: 4s;
-}
-.p_1_link_animation{
-    animation: p-link-appear 1s ease forwards;
-    animation-delay: 4s;
-}
-.dot_animation_1{
-    animation: line-appear 1s ease forwards;
-    animation-delay: 3s;
-}
-.date1_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 4s;
-}
-.line7{
-    height: 110px;
-    animation-delay: 5s; 
-}
-.dot_animation_2{
-    animation: line-appear 1s forwards;
-    animation-delay: 6s;
-}
-.date2_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 6s;
-}
-.message_Hired_First_Employee{
-    animation: message-fe-appear 3s ease-in-out forwards;
-    animation-delay: 5s;
-}
-.h5_2_animation{
-    animation: h6-h5-appear 1s forwards;
-    animation-delay: 7s;
-}
-.p_2_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 7s;
-}
-.line6{
-    height: 120px;
-    animation-delay: 8s;
-}
-.dot_animation_3{
-    animation: line-appear 1s forwards;
-    animation-delay: 9s;
-}
-.date3_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 9s;
-}
-.h5_3_animation{
-    animation: h6-h5-appear 1s forwards;
-    animation-delay: 10s;
-}
-.p_3_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 10s;
-}
-.message_from_Twitter1_left{
-    animation: message-ft1l-appear 1s ease-in-out forwards;
-    animation-delay: 9s;
-}
-.line5{
-    height: 110px;
-    animation-delay: 11s;
-}
-.dot_animation_4{
-    animation: line-appear 1s forwards;
-    animation-delay: 12s;
-}
-.date4_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 12s;
-}
-.h5_4_animation{
-    animation: h6-h5-appear 1s forwards;
-    animation-delay: 13s;
-}
-.p_4_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 13s;
-}
-.message_from_Twitter1_right{
-    animation: message-ft1r-appear 1s ease-in-out forwards;
-    animation-delay: 11s;
-}
-.line4{
-    height: 50px;
-    animation-delay: 14s;
-}
-.separator_2014_animation{
-    animation: separator-appear 1s ease-in-out forwards;
-    animation-delay: 15s;
-}
-.line3{
-    height: 60px;
-    animation-delay: 16s;
-}
-.dot_animation_5{
-    animation: line-appear 1s forwards;
-    animation-delay: 17s;
-}
-.date5_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 17s;
-}
-.h5_5_animation{
-    animation: h6-h5-appear 1s forwards;
-    animation-delay: 17s;
-}
-.p_5_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 17s;
-}
-.Mathew_Joined{
-    animation: message-mj-appear 1s forwards;
-    animation-delay: 17s;
-}
-.line2{
-    height: 105px;
-    animation-delay: 18s;
-}
-.dot_animation_6{
-    animation: line-appear 1s forwards;
-    animation-delay: 19s;
-}
-.date6_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 19s;
-}
-.h5_6_animation{
-    animation: h6-h5-appear 1s forwards;
-    animation-delay: 19s;
-}
-.p_6_animation{
-    animation: p-appear 1s forwards;
-    animation-delay: 19s;
-}
-.Premium_Account{
-    animation: message-pa-appear 1s forwards;
-    animation-delay: 19s;
-}
-.line1{
-    height: 95px;
-    animation-delay: 20s;
-    
-}
-.separator_now_animation{
-    animation: separator-appear 1s forwards;
-    animation-delay: 21s;
-}
-
-/* End of Animation styles*/
 
 
 
+/* Project layer styles*/
+
+.align_right{
+    text-align: right;
+}
+.align_left{
+    text-align: left;
+}
 .subheader{
     color:#9d9da7;
     font-size:20px;
     text-align: center;
 }
-.timeline, .timeline-section__center{
+.timeline, .timeline__section2014__center,.timeline__section2013__center{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,7 +65,7 @@ body{
     margin-top:20px;
     width:91vw;
 }
-.timeline_date{
+.date{
     font-size: 12px;
 }
 .separator{
@@ -319,41 +83,38 @@ body{
     font-weight: 700;
 }
 
-.timeline-section{
+.timeline__section2014, .timeline__section2013{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.year_2014{
+.section2014_height{
     height:290px;
 }
-.year_2013{
+.section2013_height{
     height:630px;
 }
-.timeline_date, .timeline-message__left{
+.timeline_date, .timeline-message{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-
-.timeline-section__left{
+.timeline__section2014__left, .timeline__section2013__left{
     width:45vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right:7px;
-    
+    padding-right:7px; 
 }
-.timeline-section__center{
+.timeline__section2014__center, .timeline__section2013__center{
     width:1vw;
 }
-.timeline-section__right{
+.timeline__section2014__right, .timeline__section2013__right{
     width:45vw;
     display: flex;
     flex-direction: column;
-    padding-left:7px;
-    
+    padding-left:7px;   
 }
 .dot{
     background-color: #e6e4e4;
@@ -363,6 +124,43 @@ body{
     border-radius: 5px;
     margin:2px;
 }
+.message-right{
+    display: flex;
+    justify-content: flex-start; 
+}
+.message-left__inner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right:60px;
+    padding-left:15px;
+    padding-bottom: 10px;
+}
+.message-right__inner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:65px;
+    padding-right:15px;
+    padding-bottom: 10px;
+}
+.launch-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width:360px;
+    height:88px; 
+}
+
+
+
+/* Cosmetic layer styles*/
+
 .Mathew_Joined{
     width:310px;
     height:80px;
@@ -393,14 +191,7 @@ body{
     height:90px;
     margin-top:78px;
 }
-.launch-message{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    width:360px;
-    height:88px; 
-}
+
 .date_18Feb2014{
     display: flex;
     justify-content: flex-end;
@@ -430,28 +221,4 @@ body{
     display: flex;
     justify-content: flex-start;
     margin-top: 58px;
-}
-.timeline-message__right{
-    display: flex;
-    justify-content: flex-start; 
-}
-.message_left{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding-right:60px;
-    padding-left:15px;
-    padding-bottom: 10px;
-}
-.message_right{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left:65px;
-    padding-right:15px;
-    padding-bottom: 10px;
 }
